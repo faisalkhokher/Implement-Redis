@@ -1,3 +1,14 @@
+* Some changes in code 
+
+
+* chnages in ENV
+CACHE_DRIVER=redis
+REDIS_CLIENT=predis
+
+*changes in databse.php
+composer require predis/predis
+
+
 'redis' => [
 
         'client' => env('REDIS_CLIENT', 'predis'),
